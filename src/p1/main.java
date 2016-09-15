@@ -36,7 +36,6 @@ public class main {
 			for (Element td : tds) {
 				arr.add(td);
 			}
-			
 		}	
 		
 		for (int i=0; i<arr.size(); i++) {
@@ -77,7 +76,7 @@ public class main {
 			myArr.add(new TableElement(description.get(i), AR.get(i), BR.get(i), D.get(i)));
 		}
 		
-		System.out.println(myArr.get(2));
+		System.out.println(myArr.get(2).getName());
 		
 		
 	}
