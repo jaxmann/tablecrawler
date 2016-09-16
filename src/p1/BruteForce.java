@@ -14,8 +14,8 @@ public class BruteForce {
 		while (counter < size) {
 			int val;
 			Position randPos = Position.values()[(int)(Math.random()*Position.values().length)];
-			switch(randPos) {
-			case randPos.toString() == "QB": 
+			switch(randPos.toString()) {
+			case "QB":
 				val = 7000 + (int)(Math.random() * 9300);
 			case "RB":
 			case "WR":
